@@ -1,0 +1,251 @@
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #66BFBF;
+  font-size: 5rem;
+  margin: 50px auto 0 auto;
+  /* font-family: 'Sacramento', cursive; */
+  font-family: 'Hachi Maru Pop', cursive;
+}
+
+h2 {
+  color: #66BFBF;
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  padding: 0;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  border: dotted #dbe2ef 6px;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto;
+}
+
+p {
+  line-height: 2;
+}
+
+table {
+  margin: 0 auto;
+}
+
+th, td {
+  padding: 15px;
+  text-align: center;
+}
+
+.credits{
+  color: #EAF6F6;
+  padding: 20px 0 0 0;
+}
+
+.footer-link{
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+.intro {
+  width: 60%;
+  margin: 70px auto 0;
+}
+
+.pro-title {
+  margin: 15px 0 0;
+}
+.pro {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.top-container {
+  background-color: #e3fdfd;
+  padding-top: 50px;
+  position: relative;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 150px;
+  top: 1px;
+  width: 10%;
+}
+
+.mountain-img{
+  width: 40%;
+}
+
+.middle-container {
+  margin: 80px 0;
+}
+
+.profile-img {
+  width: 15%;
+  height: 15%;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 30px 0 20px 0;
+  position: relative;
+}
+
+.project-row {
+  margin: 100px auto 150px auto;
+  text-align: left;
+  width: 60%;
+}
+
+.project-even {
+  margin: 0 30px 0 0;
+  width: 25%;
+  float: left;
+}
+
+.project-odd{
+  margin: 0 0 30px 0;
+  width: 25%;
+  float: right;
+}
+
+.programming-lang-row {
+  margin: 50px auto 50px auto;
+  width: 60%;
+}
+
+.programming-lang-img{
+  width: 15%;
+  height: 15%;
+  padding: 0 50px;
+}
+
+
+.btn {
+   background: #11CDD4;
+   background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -webkit-gradient(to bottom, #11CDD4, #11999E);
+   -webkit-border-radius: 27px;
+   -moz-border-radius: 27px;
+   border-radius: 27px;
+   color: #FFFFFF;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 16px;
+   font-weight: 100;
+   padding: 10px 20px;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #337FED 0;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin-top: 25px;
+}
+
+.btn:hover {
+   border: solid #337FED 1px;
+   background: #30E3EC;
+   background-image: -webkit-linear-gradient(top, #30E3EC, #2BC4AD);
+   background-image: -moz-linear-gradient(top, #30E3EC, #2BC4AD);
+   background-image: -ms-linear-gradient(top, #30E3EC, #2BC4AD);
+   background-image: -o-linear-gradient(top, #30E3EC, #2BC4AD);
+   background-image: -webkit-gradient(to bottom, #30E3EC, #2BC4AD);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+.body-3d {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin: 0 auto;
+  width: 50%;
+  height: 400px;
+}
+
+.perspective-text {
+  color: black;
+  font-family: Arial;
+  font-size: 30px;
+  font-weight: 900;
+  letter-spacing: -2px;
+  /* text-transform: uppercase; */
+  padding-right: 150px;
+}
+
+.perspective-line {
+  height: 50px;
+  overflow: hidden;
+  position: relative;
+  margin: 20px;
+}
+
+.body-3d p {
+  margin: 0;
+  height: 50px;
+  line-height: 50px;
+  transition: all 0.5s ease-in-out;
+}
+
+.perspective-line:nth-child(odd) {
+  transform: skew(60deg, -30deg) scaleY(0.667);
+}
+
+.perspective-line:nth-child(even) {
+  transform: skew(0deg, -30deg) scaleY(1.337);
+}
+
+.perspective-text:hover p {
+  transform: translate(0, -50px);
+}
+
+.perspective-line:nth-child(1) {
+  left: 29px;
+}
+
+.perspective-line:nth-child(2) {
+  left: 58px;
+  background: #f07e6e;
+}
+
+.perspective-line:nth-child(3) {
+  left: 87px;
+  background: #84cdfa;
+}
+
+.perspective-line:nth-child(4) {
+  left: 116px;
+  background: #5ad1cd;
+}
+
+.perspective-line:nth-child(5) {
+  left: 145px;
+}
